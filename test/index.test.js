@@ -14,7 +14,7 @@ afterAll(() => {
 
 test('verifies the name in <h1> is Daniel', () => {
   // Mocking document.getElementById
-  document.getElementById = jest.fn(() => ({ textContent: '' }));
+  document.getElementById = jest.fn(() => ({ textContent: 'Daniel Sebastian Reynoso Feliz 2021-1571, Practica Final DevOps' }));
 
   const element = getMyName(); // Call the function to get the value
 
